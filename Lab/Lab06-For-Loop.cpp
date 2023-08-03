@@ -36,7 +36,7 @@ int main()
         printf("Series: ");
         for (i = n; i >= 0; i -= 2)
         {
-            printf(" %d", i);
+            printf("%d", i);
         } // end for
     }     // end else
 
