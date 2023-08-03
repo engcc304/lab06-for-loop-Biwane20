@@ -21,11 +21,11 @@ int main()
 {
 
     int n, i = 0;
-    printf("Enter value:");
+    printf("Enter value: ");
     scanf("%d", &n);
     if (n % 2 == 1)
     {
-        printf("Series:");
+        printf("Series: ");
         for (i = 1; i <= n; i += 2)
         {
             printf(" %d", i);
